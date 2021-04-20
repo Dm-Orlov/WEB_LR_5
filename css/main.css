@@ -1,0 +1,177 @@
+hr {
+    border: none;
+    color: black;
+    background-color: black;
+    height: 2px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+p.text{
+    font-size: 20px;
+    text-indent: 30px;
+    margin-left: 20px;
+}
+
+p.footer{
+    font-size: 15px;
+}
+
+td{
+    font-size: 20px;
+}
+
+a{
+    font-size: 20px;
+}
+
+a.menu{
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: white;
+}
+
+table.menu{
+    border-spacing: 50px 50px;
+}
+
+td.menu{
+    background: #05f800;
+    text-align: center;
+    border-style: double;
+    padding: 5px 5px;
+}
+
+ul{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+b.price{
+    font-size: 30px;
+}
+
+body{
+    background: url('../img/background/main.jpg') no-repeat center center fixed, rgba(255,255,255,0.85);
+    background-blend-mode: color;
+}
+
+h2.product_short{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+p.product_short{
+    text-indent: 30px;
+
+    font-size: 18px;
+    font-style: italic;
+    line-height: 16px;
+    color: black;
+}
+
+p.product_short:first-letter{
+    color: orangered;
+    font-size: 22px;
+}
+
+p.product_long{
+    text-indent: 30px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+p.product_long:first-letter{
+    color: orangered;
+    font-size: 22px;
+}
+
+ul.product{
+    text-decoration: underline;
+    font-size: 16px;
+    font-style: italic;
+    list-style: "✔ ";
+}
+
+img.product{
+    border: none;
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
+}
+
+img.product:hover{
+    border: 5px solid black;
+    height: 300px;
+    width: auto;
+}
+
+input[type=text].contacts{
+    width: 300px;
+    height: 25px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+input[type=email].contacts{
+    width: 300px;
+    height: 25px;
+    text-transform: lowercase;
+    color: blueviolet;
+}
+
+input[type=topic].contacts{
+    width: 300px;
+    height: 25px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+textarea.contacts{
+    width: 300px;
+    height: 100px;
+    text-transform: capitalize;
+}
+
+img.logo{
+    display:block;
+    margin:auto;
+}
+
+table.parameters{
+    margin: auto;
+    border: 5px double green;
+    text-align:center;
+}
+
+tr.parameters{
+    padding: 5px;
+    border: 1px solid #000;
+
+}
+
+td.descr{
+    font-weight: bold;;
+}
+
+img.block{
+    height: 300px;
+    width: auto;
+}
